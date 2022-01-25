@@ -1,0 +1,257 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(126, 113, 113); 
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    margin-right: 50px;
+}
+
+.nav--left{
+  margin-left: 10px;
+  font-size: 3.5rem;
+  color: red;
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.nav--right{
+    color: white;
+    background-color: red;
+    border-radius: 5%;
+    text-align: center;
+    font-weight: 600;
+    padding: 3px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    height: 1.5rem;
+    width: 5rem;
+}
+
+.header--image {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/20876cab-b49d-4957-bbaf-906ceb1c05f1/9fbe52c9-99b4-48d2-af4e-39e7c2e31d70/NG-en-20220117-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.header {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.header--first {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.header--second {
+    font-size: 1.5rem;
+}
+
+.header--third {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.header--end {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2px;
+}
+.header--input {
+    height: 3rem;
+    width: 25rem;
+    outline: none;
+    border: none;
+}
+
+.header--last {
+    font-size: 1.3rem;
+  color: white;
+  background-color: red;
+  height: 3.2rem;
+  width: 12rem;
+  outline: none;
+  border: none;
+}
+
+.first--content {
+    color: white;
+    background-color: black;
+    height: 50vh;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.first--content--text {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.first--content--text-main {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.first-content-sub {
+    margin-top: 0;
+}
+
+
+.third--content {
+    color: white;
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.fourth--content {
+    color: white;
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+    margin-top: 7px;
+    
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.image {
+    height: 20rem;
+    width: 40rem;
+}
+ 
+
+.video {
+    margin-top: 2rem;
+}
+
+ .question--section {
+  text-align: center; 
+  margin-top: 0;
+  background-color: black;
+  padding: 0;
+  
+  height: 130vh;
+  /* width: 100%; */
+  color: white;
+  margin-top: 3px;
+  padding: 3rem;
+}
+
+
+ .question--section--first {
+    margin-top: 9px;
+   
+}
+
+
+.question--section--first--text {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: .1px;
+}
+
+.question--section--list {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.question--list {
+    background-color: rgb(41, 36, 36);
+    height: 3rem;
+    width: 45rem;
+    margin-left: 16rem;
+    text-align: left;
+    padding: 12px 20px 5px 5px; 
+}  
+
+.question--last {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    padding: 2px;
+} 
+
+ .question--last--main {
+    height: 3rem;
+    width: 25rem;
+    outline: none;
+    border: none;
+     
+}
+.question--last--sub{
+    font-size: 1.3rem;
+    color: white;
+    background-color: red;
+    height: 3.2rem;
+    width: 12rem;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+}  
+
+
+.footer {
+    background-color: black;
+    /* width: 100%; */
+    height: 29vh;
+    color: rgb(204, 195, 195);
+    margin-top: 7px;
+    padding: 4rem;
+    font-size: .9rem;
+    
+}
+
+.footer--first {
+    margin-left: 10rem;
+    margin-top: 7px;
+    margin-bottom: 1.5rem;
+    
+}
+.footer--second {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    margin-left: 10rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer--third {
+  margin-left: 10rem;
+}
