@@ -39,6 +39,7 @@ body {
 
     height: 1.5rem;
     width: 5rem;
+    cursor: pointer;
 }
 
 .header--image {
@@ -236,6 +237,7 @@ body {
     margin-top: 7px;
     padding: 4rem;
     font-size: .9rem;
+     
     
 }
 
@@ -243,15 +245,25 @@ body {
     margin-left: 10rem;
     margin-top: 7px;
     margin-bottom: 1.5rem;
+    cursor: pointer;
+
     
 }
+
+.footer--last:hover {
+    text-decoration: underline;
+}
+    
 .footer--second {
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     margin-left: 10rem;
     margin-bottom: 1.5rem;
+    cursor: pointer;
+
 }
 
 .footer--third {
   margin-left: 10rem;
+  cursor: pointer;
 }
